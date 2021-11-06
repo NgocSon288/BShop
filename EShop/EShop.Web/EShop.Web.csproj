@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  
+	<ItemGroup>
+		<PackageReference Include="Blazored.FluentValidation" Version="2.0.1" />
+		<PackageReference Include="Blazored.Toast" Version="3.2.2" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.10" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.10" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\" />
+    <Folder Include="Components\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EShop.ViewModels\EShop.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

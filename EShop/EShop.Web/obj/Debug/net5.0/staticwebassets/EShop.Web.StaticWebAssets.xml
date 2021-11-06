@@ -1,0 +1,5 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.Web\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.Web\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/Blazored.Toast" Path="C:\Users\Huynh Ngoc Son\.nuget\packages\blazored.toast\3.2.2\build\..\staticwebassets\" />
+</StaticWebAssets>

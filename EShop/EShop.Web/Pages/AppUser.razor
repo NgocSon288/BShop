@@ -1,0 +1,32 @@
+﻿@page "/appuser"
+@inject IAppUserApiClient _appUserApiClient
+
+<h1>Hello, appusers!</h1>
+
+@if(AppUsers!=null && AppUsers.Count > 0)
+{
+    foreach (var item in AppUsers)
+    {
+        <p class="alert alert-success">@item.FullName</p>
+    }
+}
+
+@code{
+
+    public List<AppUserViewModel> AppUsers { get; set; }
+    public MetaData MetaData { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var res = await _appUserApiClient.GetAll(new AppUserSearchRequest()
+        {
+            Name = "n"
+        });
+
+        if (res.IsSuccessed)
+        {
+            AppUsers = res.Result.Items;
+            MetaData = res.Result.MetaData;
+        }
+    }
+}

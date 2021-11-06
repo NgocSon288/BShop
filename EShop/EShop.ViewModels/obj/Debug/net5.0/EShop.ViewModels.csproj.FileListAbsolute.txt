@@ -1,0 +1,12 @@
+D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.ViewModels\bin\Debug\net5.0\EShop.ViewModels.deps.json
+D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.ViewModels\bin\Debug\net5.0\EShop.ViewModels.dll
+D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.ViewModels\bin\Debug\net5.0\ref\EShop.ViewModels.dll
+D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.ViewModels\bin\Debug\net5.0\EShop.ViewModels.pdb
+D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.ViewModels\obj\Debug\net5.0\EShop.ViewModels.csproj.AssemblyReference.cache
+D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.ViewModels\obj\Debug\net5.0\EShop.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.ViewModels\obj\Debug\net5.0\EShop.ViewModels.AssemblyInfoInputs.cache
+D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.ViewModels\obj\Debug\net5.0\EShop.ViewModels.AssemblyInfo.cs
+D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.ViewModels\obj\Debug\net5.0\EShop.ViewModels.csproj.CoreCompileInputs.cache
+D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.ViewModels\obj\Debug\net5.0\EShop.ViewModels.dll
+D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.ViewModels\obj\Debug\net5.0\ref\EShop.ViewModels.dll
+D:\School\HK1-năm 4\Đồ án chuẩn bị tốt nghiệp\BShop\EShop\EShop.ViewModels\obj\Debug\net5.0\EShop.ViewModels.pdb

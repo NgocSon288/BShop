@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" /> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+        .container {
+            width: 80%;
+            margin: auto;
+            height: auto;
+            position: relative; 
+        }
+
+            .container .head {
+                color: #686de0 !important;
+                text-align: center;
+                font-size: 80px;
+                margin-bottom: 30px;
+                font-family: 'Dancing Script', cursive;
+            }
+
+            .container .body {
+                padding-bottom: 30px;
+                background-color: #dff9fb;
+                border-radius: 50px;
+                border: 1px solid #c7ecee; 
+            }
+
+                .container .body .image {
+                    border-radius: 50px 50px 0px 0px;
+                    height: 320px;
+                    background-position: center;
+                    background-size: cover;
+                    background-image: url('https://image.freepik.com/free-vector/funny-cartoon-vegetable-walking-illustration-happy-healthy-food-character-cute-green-organic-product-fresh-vegetarian_121223-1209.jpg');
+                }
+
+                .container .body .content {
+                    margin-left: 5rem;
+                    margin-right: 5rem;
+                }
+
+                    .container .body .content h3 {
+                        font-weight: bold;
+                        font-family: 'Open Sans', sans-serif;
+                    }
+
+                    .container .body .content p {
+                        font-family: 'PT Sans', sans-serif;
+                        color: #95afc0;
+                    }
+
+                    .container .body .content a {
+                        font-weight: bold;
+                        font-size: 18px;
+                        font-family: 'PT Sans', sans-serif;
+                        background-color: #198754;
+                        color: white;
+                        border: 0px;
+                        cursor: pointer;
+                        border-radius: 20px;
+                        padding: 10px 20px;
+                        display: inline-block;
+                        margin-top: 10px;
+                        text-decoration: none;
+                        transition: 0.4s all;
+                    }
+
+                        .container .body .content a:hover {
+                            background-color: #073620;
+                            color: rgb(177, 177, 177);
+                        }
+    </style>
+</head>
+<body>
+
+    <div class="container" style="flex-direction: column; justify-content:center; align-items:center;">
+        <div class="head">
+            Nông Sản Xanh
+        </div>
+        <div class="body">
+            <div class="image">
+            </div>
+
+            <div class="content">
+                <h3>Xin chào {{name}},</h3>
+                <p>Chúng tôi đã nhận được yêu cầu tạo tài khoản của bạn.</p>
+                <p>Bạn vui lòng nhấn nút bên dưới để xác nhận việc đăng ký</p>
+                <a href="{{callbackUrl}}">XÁC NHẬN EMAIL</a>
+            </div>
+        </div>
+        <div class="foot">
+
+        </div>
+    </div>
+
+</body>
+</html>
